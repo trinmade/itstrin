@@ -1,0 +1,60 @@
+body {
+    background-color: #f2f2f2;
+    color: #222;
+    font-family: "Courier New";
+    margin: 0;
+}
+
+hr {
+    border-color: #eee;
+    width: 100%;
+}
+
+p {
+    margin: 20px 0;
+}
+
+#container {
+    padding: 5vh 0;
+    position: relative;
+    min-height: 90vh;
+    max-width: 90vw;
+    left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+/** Small screens **/
+@media screen and (min-width: 600px) {
+    #container {
+        max-width: 50vw;
+        left: 25vw;
+    }
+}
+
+.strikethrough {
+    text-decoration: line-through
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+h2,
+h3,
+h4 {
+    font-family: "Courier New"
+}
+
+/* Links */
+#links ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#links ul li {
+    display: inline-block;
+    position: relative;
+}
