@@ -3,6 +3,23 @@ body {
     color: #222;
     font-family: "Courier New";
     margin: 0;
+    
+}
+
+/** Small screens **/
+@media screen and (max-width: 1000px) {
+    body {
+        font-size: 4vw;
+    }
+    #container {
+        text-align: center
+    }
+    #container ul {
+        text-align: left
+    }
+    #container #links ul {
+        text-align: center
+    }
 }
 
 hr {
@@ -27,7 +44,7 @@ p {
 }
 
 /** Small screens **/
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1000px) {
     #container {
         max-width: 50vw;
         left: 25vw;
@@ -52,9 +69,34 @@ h4 {
 #links ul {
     list-style-type: none;
     padding-left: 0px;
+    row-gap: 10px;
+    display: flex;
+    column-gap: 10px;
 }
 
 #links ul li {
-    display: inline-block;
     position: relative;
+}
+
+/* Birds */
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #9f9f9f;
+    padding: 10px;
+}
+
+.photo {
+    max-width: 25%;
+    height: auto;
+}
+
+.photo img {
+    width: 100%;
+}
+
+/* Resume */
+#resume {
+    text-align: left
 }
