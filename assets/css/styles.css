@@ -6,25 +6,6 @@ body {
 
 }
 
-/** Small screens **/
-@media screen and (max-width: 1000px) {
-    body {
-        font-size: 4vw;
-    }
-
-    #container {
-        text-align: center
-    }
-
-    #container ul {
-        text-align: left
-    }
-
-    #container #links ul {
-        text-align: center
-    }
-}
-
 hr {
     border-color: #eee;
     width: 100%;
@@ -33,6 +14,7 @@ hr {
 p {
     margin: 10px 0;
 }
+
 
 #container {
     padding: 5vh 0;
@@ -45,11 +27,27 @@ p {
     justify-content: center;
 }
 
-/** Small screens **/
+.logo-cont {
+    text-align: center;
+}
+
+.logo-cont img {
+    width: 120px;
+}
+
+/** Large screens **/
 @media screen and (min-width: 1000px) {
     #container {
         max-width: 50vw;
         left: 25vw;
+    }
+
+    .logo-cont {
+        text-align: left;
+    }
+
+    #container .links ul {
+        text-align: left
     }
 }
 
@@ -87,8 +85,8 @@ hr {
     padding-left: 0px;
     row-gap: 10px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     column-gap: 10px;
     flex-wrap: wrap;
 }
@@ -118,4 +116,24 @@ hr {
 /* Resume */
 #resume {
     text-align: left
+}
+
+/** Small screens **/
+@media screen and (max-width: 1000px) {
+    body {
+        font-size: 1.2em;
+    }
+
+    #container {
+        text-align: center
+    }
+
+    #container ul {
+        text-align: left
+    }
+
+    .links ul {
+        justify-content: center;
+        align-items: center;
+    }
 }
