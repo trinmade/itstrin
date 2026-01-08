@@ -7,12 +7,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <!-- Body Styling -->
-    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="stylesheet" type="text/css" href="./_assets/css/styles.css" />
+    <!-- Scripts -->
+     <script src="./_assets/js/linkgen.js"></script>
 </head>
 
-<body>
+<body onload="makeLinks()">
     <div id="container">
         <h1>/recipes</h1>
+        <div class="links"></div>
         <hr>
         This is a collection of my recipes & recipes I've tried and recommend :]
         <hr>
@@ -22,7 +25,8 @@
                 <h3>My Babysitter's Mac an Cheese (modified)</h3>
                 <p>
                     My mother got the original recipe from my babysitter wayyy back when. It's been modified slightly. I
-                    make this as an easy dinner and serve it with roasted vegetables! Brocolli or cauliflower is my favorite.
+                    make this as an easy dinner and serve it with roasted vegetables! Brocolli or cauliflower is my
+                    favorite.
                     <br><br>
                     <b>Ingredients:</b>
                 <ul>
@@ -31,18 +35,23 @@
                     <li>smoked paprika</li>
                     <li>salt & pepper</li>
                     <li>2 cups full fat milk</li>
-                    <li>2 cups shredded cheese (I use good cheddar & a bit of parmesan. Don't use pre-shredded, it has too much starch & will make your sauce gummy.)</li>
+                    <li>2 cups shredded cheese (I use good cheddar & a bit of parmesan. Don't use pre-shredded, it has
+                        too much starch & will make your sauce gummy.)</li>
                     <li>1 tsp (or more, to taste) of Good mustard. Dijon, not whole seed.</li>
                     <li>8 oz cooked pasta; I like cavatappi</li>
                 </ul>
-                Melt butter in a saucepan. Mix in 1/4 cup flour, smoked paprika, salt, & freshly ground pepper. Stir and cook
-                to make a roux. Once homogenous and thick, mix in 2 cups full fat milk. Whisk until thickened, try not to boil the milk. It’ll start
+                Melt butter in a saucepan. Mix in 1/4 cup flour, smoked paprika, salt, & freshly ground pepper. Stir and
+                cook
+                to make a roux. Once homogenous and thick, mix in 2 cups full fat milk. Whisk until thickened, try not
+                to boil the milk. It’ll start
                 out clumpy, and then seem too thin, and then it will thicken.
                 Reduce heat to low. Add shredded cheese. Stir until melted.
-                Once smooth, remove from heat and whisk in mustard of choice or more to taste. Taste for seasoning. Add 8oz cooked
+                Once smooth, remove from heat and whisk in mustard of choice or more to taste. Taste for seasoning. Add
+                8oz cooked
                 pasta.
                 <br><br>
-                Optionally (I usually don't since it's meant to be a quick dinner), mix breadcrumbs and melted butter, pour the mac & cheese into a baking pan, 
+                Optionally (I usually don't since it's meant to be a quick dinner), mix breadcrumbs and melted butter,
+                pour the mac & cheese into a baking pan,
                 top with breadcrumbs & more shredded cheese, and bake at 350 for 10 minutes or until brown on top.
                 </p>
                 <h3>Oatmeal Coconut Cookies</h3>
@@ -74,29 +83,15 @@
                 Roll into 1 tbsp balls and bake for 11-13 minutes.
                 </p>
             </div>
-            <div>
+            <!-- <div>
                 <h2>My Favorite Recipes</h2>
                 <h3>Dinner</h3>
 
                 <h3>Dessert</h3>
-            </div>
+            </div> -->
         </div>
-        <div id="links">
-            <ul>
-                <li>
-                    [<a href="./index">home</a>]
-                </li>
-                <li>
-                    [<a class="strikethrough">contact</a>]
-                </li>
-                <li>
-                    [<a href="./birds">birds</a>]
-                </li>
-                <li>
-                    [<a href="./resume">resume</a>]
-                </li>
-            </ul>
-        </div>
+        <hr>
+        <div class="links"></div>
     </div>
 </body>
 

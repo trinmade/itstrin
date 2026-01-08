@@ -7,101 +7,122 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <!-- Body Styling -->
-    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="stylesheet" type="text/css" href="./_assets/css/styles.css" />
+    <!-- Scripts -->
+    <script src="./_assets/js/linkgen.js"></script>
+    <script src="https://kit.fontawesome.com/2d156c1253.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body onload="makeLinks()">
     <div id="container">
         <h1>/resume</h1>
+        <div class="links"></div>
         <hr>
-        <div id="resume">
-            <div id="section">
-                <h2>Work Experience</h2>
-                <div id="Aerospace">
-                    <h3>MTS, Data Engineering - <a href="https://aerospace.org/">The Aerospace Corporation</a></h3>
-                    <h4> 2020 - present </h4>
-                    <ul>
-                        <li>
-                            Full stack development on a series of concurrect, multi-disciplinary web applications in the
-                            support of analytics display and workflows for customers in the defense and space industry.
-                        </li>
-                        <li>
-                            Configures & manages builds, pipelines, and deployments for microservices using
-                            <b>Kubernetes</b>.
-                        </li>
-                        <li>
-                            Worked with the DoltLab team to allow their software to function air-gap networks in the
-                            support of am internal workflow automation tool for performing bulk satellite analytics with
-                            version-controlled data.
-                        </li>
-                        <li>
-                            Enthusiastic mentor to interns. Regularly onboards interns onto technical projects,
-                            including
-                            accessing capabilities, assigning tickets, and tagging up to ensure interns comprehend,
-                            complete, and enjoy their work.
-                        </li>
-                        <li>
-                            Organized and led a company Hackathon to introduce developers to <a
-                                href="https://innersourcecommons.org/">InnerSource</a> concepts and a new library of
-                            internal software templates.
-                        </li>
-                        <li>
-                            Developed a RESTful API in Python for performing quick-turn satellite architecture
-                            performance
-                            analysis within a 2 person team.
-                        </li>
-                        <li>
-                            Adeptly communicates with non-technical customers in the presentation of work as well as
-                            translation of customer wants and needs into actionable project requirements, timelines, and
-                            software architecture.
-                        </li>
-                        <li>
-                            Thoroughly enjoys refactoring and rebuilding legacy software, translating scattered
-                            architecture into robust, reusable components.
-                        </li>
-                    </ul>
+        <div class="main-content">
+            <p>
+                I am a full-stack software developer with a passion for modular architecture and intuitive design.
+                I am currently looking a full-time position, either remote or in the capital region of Upstate New York.
+            </p>
+            <div class="social-media">
+                <b>Find me on:</b> 
+                <i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/trin-baumgarten-95a9a3169/">LinkedIn</a> 
+                <i class="fa-brands fa-github"></i> <a href="https://github.com/trinmade">github</a> 
+            </div>
+            <hr>
+            <div id="resume">
+                <div id="section">
+                    <h2>Work Experience</h2>
+                    <div id="Aerospace">
+                        <h3>MTS, Data Engineering - <a href="https://aerospace.org/">The Aerospace Corporation</a></h3>
+                        <h4> 2024 - present </h4>
+                        <ul>
+                            <li>
+                                Full stack development on a series of concurrect, multi-disciplinary web applications in
+                                the
+                                support of analytics display and workflows for customers in the defense and space
+                                industry.
+                            </li>
+                            <li>
+                                Configures & manages builds, pipelines, and deployments for microservices using
+                                <b>Kubernetes</b>.
+                            </li>
+                            <li>
+                                Worked with the DoltLab team to allow their software to function air-gap networks in the
+                                support of am internal workflow automation tool for performing bulk satellite analytics
+                                with
+                                version-controlled data.
+                            </li>
+                            <li>
+                                Enthusiastic mentor to interns. Regularly onboards interns onto technical projects,
+                                including
+                                accessing capabilities, assigning tickets, and tagging up to ensure interns comprehend,
+                                complete, and enjoy their work.
+                            </li>
+                            <li>
+                                Organized and led a company Hackathon to introduce developers to <a
+                                    href="https://innersourcecommons.org/">InnerSource</a> concepts and a new library of
+                                internal software templates.
+                            </li>
+                            <li>
+                                Developed a RESTful API in Python for performing quick-turn satellite architecture
+                                performance
+                                analysis within a 2 person team.
+                            </li>
+                            <li>
+                                Adeptly communicates with non-technical customers in the presentation of work as well as
+                                translation of customer wants and needs into actionable project requirements, timelines,
+                                and
+                                software architecture.
+                            </li>
+                            <li>
+                                Thoroughly enjoys refactoring and rebuilding legacy software, translating scattered
+                                architecture into robust, reusable components.
+                            </li>
+                        </ul>
+                        <h3>AMTS - <a href="https://aerospace.org/">The Aerospace Corporation</a></h3>
+                        <h4> 2020 - 2024 </h4>
+                        <h3>Technical Intern IV - <a href="https://aerospace.org/">The Aerospace Corporation</a></h3>
+                        <h4> 2019 - 2020 </h4>
+                        <h3>Technical Intern - <a href="https://www.onesky.xyz/">OneSky</a></h3>
+                        <h4> Summer 2018 </h4>
+                    </div>
+                    <div id="tutoring">
+                        <h3>Freelance Tutoring</h3>
+                        <h4>2020 - present</h4>
+                        <ul>
+                            <li>Tutors subjects in math and physics to students middle school and up, with a focus on
+                                rebuilding foundations and addressing anxiety.</li>
+                        </ul>
+                    </div>
                 </div>
-
-            </div>
-            <div id="section">
-                <h2>Education</h2>
-                <h3>Bachelors of Science in Aerospace Engineering</h3>
-                <h4>Embry-Riddle Aeronautical University 2016-2020</h4>
-            </div>
-            <div id="section">
-                <h2>Skills</h2>
-                <h3>Front-End</h3>
-                Typescript (w/React, React Redux, Angular2+), Javascript (w/D3.js), S/CSS, HTML, Material, Bootstrap,
-                Python (w/MkDocs)
-                <h3>Backend</h3>
-                Python (w/FastAPI, Swagger, NumPY, pandas, plotly, pytest)
-                <h3>Databases</h3>
-                SQL (w/MySQL), MongoDB
-                <h3>DevOps</h3>
-                git, Github, Docker (w/Docker Compose), Kuberentes (w/kubevirt, Helm), ArgoCD, Jenkins,
-                <h3>OS</h3>
-                Windows, Ubuntu, CentOS
-                <h3>Office & Task Management Tools</h3>
-                Microsoft Office Suite, JIRA, Confluence
+                <hr>
+                <div id="section">
+                    <h2>Education</h2>
+                    <h3>Bachelors of Science in Aerospace Engineering</h3>
+                    <h4>Embry-Riddle Aeronautical University 2016-2020</h4>
+                </div>
+                <hr>
+                <div id="section">
+                    <h2>Skills</h2>
+                    <h3>Front-End</h3>
+                    Typescript (w/React, React Redux, Angular2+), Javascript (w/D3.js), S/CSS, HTML, Material,
+                    Bootstrap,
+                    Python (w/MkDocs)
+                    <h3>Backend</h3>
+                    Python (w/FastAPI, Swagger, NumPY, pandas, plotly, pytest)
+                    <h3>Databases</h3>
+                    SQL (w/MySQL), MongoDB
+                    <h3>DevOps</h3>
+                    git, Github, Docker (w/Docker Compose), Kuberentes (w/kubevirt, Helm), ArgoCD, Jenkins
+                    <h3>OS</h3>
+                    Windows, Ubuntu, CentOS
+                    <h3>Office & Task Management Tools</h3>
+                    Microsoft Office Suite, JIRA, Confluence
+                </div>
             </div>
         </div>
         <hr>
-        <div id="links">
-            <ul>
-                <li>
-                    [<a href="./index">home</a>]
-                </li>
-                <li>
-                    [<a href="./contact">contact</a>]
-                </li>
-                <li>
-                    [<a href="./birds">birds</a>]
-                </li>
-                <li>
-                    [<a class="strikethrough">resume</a>]
-                </li>
-            </ul>
-        </div>
+        <div class="links"></div>
     </div>
 </body>
 

@@ -7,33 +7,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <!-- Body Styling -->
-    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="stylesheet" type="text/css" href="./_assets/css/styles.css" />
+    <!-- Scripts -->
+     <script src="./_assets/js/linkgen.js"></script>
 </head>
 
-<body>
+<body onload="makeLinks()">
     <div id="container">
         <h1>/contact</h1>
+        <div class="links"></div>
         <hr>
         <p>
-            Want to chat? Reach out to me on <a href="https://www.linkedin.com/in/trin-baumgarten-95a9a3169/">LinkedIn</a> or shoot me an email at <a href="mailto:trin.baumgarten@gmail.com">trin.baumgarten@gmail.com</a>.
+            Want to chat? Reach out to me on <a
+                href="https://www.linkedin.com/in/trin-baumgarten-95a9a3169/">LinkedIn</a> or shoot me an email at <a
+                href="mailto:trin.baumgarten@gmail.com">trin.baumgarten@gmail.com</a>.
         </p>
         <hr>
-        <div id="links">
-            <ul>
-                <li>
-                    [<a href="./index">home</a>]
-                </li>
-                <li>
-                    [<a class="strikethrough">contact</a>]
-                </li>
-                <li>
-                    [<a href="./birds">birds</a>]
-                </li>
-                <li>
-                    [<a href="./resume">resume</a>]
-                </li>
-            </ul>
-        </div>
+        <div class="links"></div>
     </div>
 </body>
 

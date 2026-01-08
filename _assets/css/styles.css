@@ -3,7 +3,7 @@ body {
     color: #222;
     font-family: "Courier New";
     margin: 0;
-    
+
 }
 
 /** Small screens **/
@@ -11,12 +11,15 @@ body {
     body {
         font-size: 4vw;
     }
+
     #container {
         text-align: center
     }
+
     #container ul {
         text-align: left
     }
+
     #container #links ul {
         text-align: center
     }
@@ -28,7 +31,7 @@ hr {
 }
 
 p {
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 #container {
@@ -40,7 +43,6 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0;
 }
 
 /** Small screens **/
@@ -62,19 +64,36 @@ h1 {
 h2,
 h3,
 h4 {
-    font-family: "Courier New"
+    font-family: "Courier New";
+    margin: 10px 0
+}
+
+ul {
+    margin: 10px 0 10px 0
+}
+
+hr {
+    margin: 20px 0
 }
 
 /* Links */
-#links ul {
+.links {
+    margin: 10px 0;
+    max-width: 100vw;
+}
+
+.links ul {
     list-style-type: none;
     padding-left: 0px;
     row-gap: 10px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     column-gap: 10px;
+    flex-wrap: wrap;
 }
 
-#links ul li {
+.links ul li {
     position: relative;
 }
 

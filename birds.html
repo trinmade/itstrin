@@ -7,12 +7,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <!-- Body Styling -->
-    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="stylesheet" type="text/css" href="./_assets/css/styles.css" />
+    <!-- Scripts -->
+    <script src="./_assets/js/linkgen.js"></script>
 </head>
 
-<body>
+<body onload="makeLinks()">
     <div id="container">
         <h1>/birds</h1>
+        <div class="links"></div>
         <hr>
         <div id="bird" style="text-align: left">
             <h2>Angeline</h2>
@@ -49,8 +52,8 @@
             </p>
             <p>
                 In the summer of 2022, I brought Angeline home. She had never gotten along with the other birds at the
-                sanctuary, and I was the only volunteer who she let handle her. Since then she's been living with me in
-                my old victorian home. Her loud self-expression, able to be heard from a few houses down, was earned my
+                sanctuary, and I was the only volunteer who she let handle her. Since then she's been living with me. 
+                Her loud self-expression, able to be heard from a few houses down, has earned my
                 home the title of "The House with the Bird". She's also inspired my personal logo!
             </p>
         </div>
@@ -81,22 +84,7 @@
             </p>
         </div>
         <hr>
-        <div id="links">
-            <ul>
-                <li>
-                    [<a href="./index">home</a>]
-                </li>
-                <li>
-                    [<a href="./contact">contact</a>]
-                </li>
-                <li>
-                    [<a class="strikethrough">birds</a>]
-                </li>
-                <li>
-                    [<a href="./resume">resume</a>]
-                </li>
-            </ul>
-        </div>
+        <div class="links"></div>
     </div>
 </body>
 

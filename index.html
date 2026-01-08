@@ -9,14 +9,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <!-- Body Styling -->
-    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="stylesheet" type="text/css" href="./_assets/css/styles.css" />
+    <!-- Scripts -->
+     <script src="./_assets/js/linkgen.js"></script>
 </head>
 
-<body>
+<body onload="makeLinks()">
     <div id="container">
         <img src="https://raw.githubusercontent.com/trinmade/itstrin/1f719b8c7576172fa668a2cd352b3a76c393d064/_assets/angie_logo.svg"
             style="max-width: 20%">
         <h1>Trin Baumgarten</h1>
+        <div class="links"></div>
         <hr>
         <h3>hi there! welcome to my website. it's a little new, but feel free to poke around.</h3>
         <b>Currently into:</b>
@@ -35,25 +38,7 @@
             </li>
         </ul>
         <hr>
-        <div id="links">
-            <ul>
-                <li>
-                    [<a class="strikethrough">home</a>]
-                </li>
-                <li>
-                    [<a href="./contact">contact</a>]
-                </li>
-                <li>
-                    [<a href="./birds">birds</a>]
-                </li>
-                <li>
-                    [<a href="./recipes">recipes</a>]
-                </li>
-                <li>
-                    [<a href="./resume">resume</a>]
-                </li>
-            </ul>
-        </div>
+        <div class="links"></div>
     </div>
 </body>
 
